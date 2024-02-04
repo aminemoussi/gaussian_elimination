@@ -2,7 +2,7 @@ import numpy as np
 
 def gaussian_elimination(a_matrix, b_matrix):
     if (a_matrix.shape[1] != b_matrix.shape[0]):
-        print("Error: rows in A is not equate column in B.")
+        print("Error: rows in A is not equale column in B.")
     elif (b_matrix.shape[1] != 1) or (b_matrix.shape[0] != a_matrix.shape[0]):
         print("Error: number of columns in B does not equate to one, or A is not squared.")
     else:
